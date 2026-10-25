@@ -1,0 +1,10 @@
+{
+  "name": "R (tidyverse + magick)",
+  "image": "ghcr.io/rocker-org/devcontainer/tidyverse:4",
+  "postCreateCommand": "bash .devcontainer/setup.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": ["REditorSupport.r"]
+    }
+  }
+}
